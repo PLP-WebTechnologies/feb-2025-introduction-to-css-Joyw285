@@ -1,0 +1,52 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edeaf1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling using an ID */
+#header {
+    background-color: #3498db;
+    color: rgb(243, 221, 221);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    border-bottom: 5px solid #2980b9;
+}
+
+/* Paragraph styling using a class */
+.text-content {
+    color: #333;
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+/* Styling an image */
+.image-container img {
+    width: 300px;
+    height: auto;
+    border: 5px solid #2ecc71;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    background-color: #45e73c;
+    color: rgb(212, 20, 20);
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
